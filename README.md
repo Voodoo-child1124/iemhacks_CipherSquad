@@ -2,7 +2,7 @@
 
 Team member details(And github id):
 Arijit Chatterjee: Arijit-2004
-Debaditya Som: 
+Debaditya Som: Debaditya-Som
 Arka Sengupta:Voodoo-child1124
 Ayan Dasgupta: AD9190
 
