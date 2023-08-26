@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body style="margin: 0%;">
+    <div class="wrapper">
+     <section class="parallax">
+     <img id="" src=".png">
+     <img id=""src=".png">
+     <img id=""src=".png">
+     <h2 id="text" style="margin-left: 450px;margin-bottom: 100px;">Cultural Heritage of <br> <em>Bengal</em> </h2>
+        </section>
+        <div class="sec">
+            <h2 id="text">
+                Introduction
+            </h2>
+            <p id="text">
+                Welcome to our interactive tour of West Bengal, India's, culturally diverse and rich districts.
+                This website aspires to honor the distinctive culture, customs, artistic expressions, and historical
+                significance that characterize each region in this thriving state.
+                <br>
+                Join us as we explore the cultural
+                tapestry that genuinely distinguishes West Bengal, from the busy streets of Kolkata to the serene
+                villages of Darjeeling.
+
+
+            </p>
+            <div class="map-container">
+            </div>
+            <div id="popup" class="popup">
+                <p id="popup-content">Hover over a district to see more info.</p>
+            </div>
+            <script src="map.js"></script>
+
+
+         </div>
+     </div>
+        <script src="script.js"></script>
+        <style>
+            .wrapper{
+                overflow-y: hidden;
+                overflow-x: hidden;
+            }
+            .parallax{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                perspective: -10px;
+            }
+            .parallax img{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                pointer-events: none;
+            }
+            em{
+                font-size: 150px;
+            }
+            .parallax h2{
+                position:relative;
+                font-family:'Times New Roman', Times, serif;
+                font-style: italic;
+                font-size: 5em;
+                color: aliceblue;
+                text-shadow: 2px 2px 4px #3333332a;
+            }
+            .sec{
+                position: relative;
+                background: #af3d04;
+                padding: 150px;
+            }
+            .sec h2{
+                font-size: 3em;
+                color: aliceblue;
+                margin-bottom: 10px;
+            }
+            .sec p{
+                font-size: 1em;
+                color: aliceblue;
+                font-weight: 300;
+            }
+        </style>
+    </body>
+</html>
