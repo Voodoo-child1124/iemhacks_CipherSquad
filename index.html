@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles.css">
     </head>
     <body style="margin: 0%;">
     <div class="wrapper">
@@ -32,57 +34,43 @@
                 <p id="popup-content">Hover over a district to see more info.</p>
             </div>
             <script src="map.js"></script>
-
-
+	        <section id="history">
+            <h2>History and Heritage</h2>
+            <div class="history-content">
+                <div class="history-text">
+                    <p>Explore the historical significance of West Bengal's cultural heritage.</p>
+                </div>
+                <div class="history-image">
+                    <img src="https://cdn.britannica.com/78/142578-050-F3CEFF46/Nizamat-Kila-palace-nawabs-Murshidabad-West-Bengal.jpg" alt="History Image">
+                    <img src="https://cdn.britannica.com/91/110191-050-7BCFD56B/Victoria-Memorial-Hall-Kolkata-India.jpg" alt="History Image">
+                    <img src="https://cdn.britannica.com/91/110191-050-7BCFD56B/Victoria-Memorial-Hall-Kolkata-India.jpg" alt="History Image">
+                    <img src="https://cdn.britannica.com/91/110191-050-7BCFD56B/Victoria-Memorial-Hall-Kolkata-India.jpg" alt="History Image">
+                    <img src="https://cdn.britannica.com/91/110191-050-7BCFD56B/Victoria-Memorial-Hall-Kolkata-India.jpg" alt="History Image">
+                </div>
+            </div>
+        </section>
+        <section id="art">
+            <h2>Art and Crafts</h2>
+            <p>Experience the exquisite artistry of Bengal's traditional crafts.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="https://i0.wp.com/thestrongtraveller.com/wp-content/uploads/2021/09/Tourisim-Charida-Masks-1.jpg?fit=870%2C580&ssl=1" alt="Image 1">
+                <img src="https://pushpakbanerjee.files.wordpress.com/2012/02/img_7625_2816x1880.jpg" alt="Image 2">
+                <img src="https://www.asianstudies.org/wp-content/uploads/Kolkatatemple-1024x683.jpg" alt="Image 3">
+                <img src="https://hindupost.in/wp-content/uploads/2022/10/image-180-696x427.png" alt="Image 4">
+                <img src="https://res.cloudinary.com/tourhq/image/upload/c_fill,f_auto,fl_progressive,g_auto,h_493,q_auto:best,w_876/n0txrhatb4axdsnhhgvp" alt="Image 5">
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2023/04/Festivals-in-Kolkata.jpg" alt="Image 6">
+            </div>
+        </section>
+        <section id="festivals">
+            <h2>Festivals and Celebrations</h2>
+            <p>Participate in the vibrant festivals that showcase the spirit of West Bengal.</p>
+        </section>
          </div>
      </div>
         <script src="script.js"></script>
-        <style>
-            .wrapper{
-                overflow-y: hidden;
-                overflow-x: hidden;
-            }
-            .parallax{
-                position: relative;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                perspective: -10px;
-            }
-            .parallax img{
-                position: absolute;
-                top: 0%;
-                left: 0%;
-                width: 100%;
-                pointer-events: none;
-            }
-            em{
-                font-size: 150px;
-            }
-            .parallax h2{
-                position:relative;
-                font-family:'Times New Roman', Times, serif;
-                font-style: italic;
-                font-size: 5em;
-                color: aliceblue;
-                text-shadow: 2px 2px 4px #3333332a;
-            }
-            .sec{
-                position: relative;
-                background: #af3d04;
-                padding: 150px;
-            }
-            .sec h2{
-                font-size: 3em;
-                color: aliceblue;
-                margin-bottom: 10px;
-            }
-            .sec p{
-                font-size: 1em;
-                color: aliceblue;
-                font-weight: 300;
-            }
-        </style>
-    </body>
+        <script src="script_2.js"></script>
+         </body>
 </html>
