@@ -1,0 +1,165 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #ffa06c;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+div{
+    display:inline;
+}
+
+
+/* ... previous code ... */
+.intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.intro img {
+    max-width: 300px;
+    margin-right: 1rem;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery-container img {
+    max-width: 100%;
+}
+
+
+
+/* ... previous code ... */
+.history-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.history-text {
+    flex: 1;
+}
+
+.history-image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.history-image img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+
+/* ... remaining code ... */
+
+/* ... remaining code ... */
+
+/*
+
+.wrapper{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: -10px;
+}
+.parallax img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    pointer-events: none;
+}
+em{
+    font-size: 150px;
+}
+.parallax h2{
+    position:relative;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 5em;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #3333332a;
+}
+.sec{
+    position: relative;
+    background: #af3d04;
+    padding: 150px;
+}
+.sec h2{
+    font-size: 3em;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.sec p{
+    font-size: 1em;
+    color: aliceblue;
+    font-weight: 300;
+}
+*/
