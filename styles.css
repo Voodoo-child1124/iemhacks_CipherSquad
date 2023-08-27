@@ -136,3 +136,46 @@ nav ul {
   }
   
 
+/* Your existing CSS styles */
+
+/* Style for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-details,
+  .contact-info {
+    margin: 1rem;
+  }
+  
+  .team-details h2,
+  .contact-info h2 {
+    color: #FF5733;
+  }
+  
+  .team-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .team-details li {
+    margin: 5px 0;
+  }
+  
+  .team-details a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Other styling as needed */
+  
