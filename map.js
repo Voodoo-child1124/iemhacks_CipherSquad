@@ -8,8 +8,8 @@ districts.forEach(district => {
         const info = e.target.getAttribute('data-info');
         popupContent.textContent = info;
         popup.style.display = 'block';
-        popup.style.left = e.clientX + 'px';
-        popup.style.top = e.clientY + 'px';
+        popup.style.top = e.clientX + 'px';
+        popup.style.left = e.clientY + 'px';
     });
 
 
