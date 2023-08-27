@@ -113,3 +113,26 @@ a:hover,a:active{
     color:#eee;
 }
 
+/* Your existing CSS styles */
+
+/* Style for the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+

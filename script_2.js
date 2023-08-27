@@ -1,3 +1,4 @@
+
 const historyImages = document.querySelectorAll('.history-image img');
 let currentImageIndex = 0;
 
