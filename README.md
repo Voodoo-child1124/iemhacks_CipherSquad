@@ -1,11 +1,11 @@
 # iemhacks_CipherSquad
 
 Team member details(And github id):
+
 Arijit Chatterjee: Arijit-2004
+Ayan Dasgupta: AD9190
 Debaditya Som: Debaditya-Som
 Arka Sengupta:Voodoo-child1124
-Ayan Dasgupta: AD9190
-
 
 ## Installation and Setup
 
